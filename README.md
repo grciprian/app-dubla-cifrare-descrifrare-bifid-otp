@@ -2,6 +2,7 @@
 
 ## Cerinte preliminare
 [Descarca si instaleaza NodeJS](https://nodejs.org/en/download/)
+`Comenzile se executa din CMD in interiorul directorului proiectului clonat`
 
 ## Dezvoltare
 Dupa ce se cloneaza local proiectul, se executa
