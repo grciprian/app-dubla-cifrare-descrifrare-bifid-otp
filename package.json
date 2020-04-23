@@ -1,5 +1,5 @@
 {
-  "name": "crypt",
+  "name": "app-dubla-cifrare-descrifrare-bifid-otp",
   "version": "1.0.0",
   "description": "O aplicatie de dubla cifrare/descifrare",
   "main": "src/main.js",
