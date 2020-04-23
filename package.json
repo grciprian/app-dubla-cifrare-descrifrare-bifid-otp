@@ -1,0 +1,18 @@
+{
+  "name": "crypt",
+  "version": "1.0.0",
+  "description": "O aplicatie de dubla cifrare/descifrare",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ciprian Ghenceanu",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "electron": "^8.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}

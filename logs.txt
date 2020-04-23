@@ -1,0 +1,3 @@
+2020-04-13T11:31:28.965Z: ENCRYPTED from {"text":"PISICA","bifid_key":"CRIPTOGRAFIE","otp_key":"SECRET"} to UQTHUB
+2020-04-13T11:31:41.640Z: DECRYPTED from {"text":"UQTHUB","bifid_key":"CRIPTOGRAFIE","otp_key":"SECRET"} to PISICA
+2020-04-13T11:31:47.624Z: DECRYPTED from {"text":"UQTHUB","bifid_key":"CRIPTOGRAFIE","otp_key":"SECRET"} to PISICA

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dubla cifrare/descifrare</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body class="container-fluid">
+    <div class="col pt-3 pb-3">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Text clar</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Incarca fisier JSON cu urmatoarele chei: text,
+                            bifid_key si otp_key</h6>
+                        <p class="card-text">
+                            <table class="table">
+                                <tbody id="plainTextInfoBox" class="text-uppercase">
+                                </tbody>
+                            </table>
+                        </p>
+                        <div class="col">
+                            <div class="row">
+                                <label href="#" class="btn btn-info">Incarca<input id="plainTextFileSelector"
+                                        type="file" hidden></label>
+                                <label class="btn btn-outline-info ml-1" id="plainTextFileRefresh"
+                                    style="cursor: pointer;" title="Refresh">
+                                    <i class="fa fa-refresh"></i>
+                                </label>
+                            </div>
+                            <div class="row">
+                                <button class="btn btn-info" id="plainTextEncryptButton" disabled>Cripteaza!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cifrul bifid</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Sistem de criptare intermediar</h6>
+                        <p class="card-text">
+                            <table class="table">
+                                <tbody id="bifidInfoBox" class="text-uppercase">
+                                </tbody>
+                            </table>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cifrul OTP</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Incarca fisier JSON cu urmatoarele chei: text,
+                            bifid_key si otp_key</h6>
+                        <p class="card-text">
+                            <table class="table">
+                                <tbody id="otpInfoBox" class="text-uppercase">
+                                </tbody>
+                            </table>
+                        </p>
+                        <div class="col">
+                            <div class="row">
+                                <label href="#" class="btn btn-info">Incarca<input id="otpFileSelector" type="file"
+                                        hidden></label>
+                                <label class="btn btn-outline-info ml-1" id="otpFileRefresh" style="cursor: pointer;"
+                                    title="Refresh">
+                                    <i class="fa fa-refresh"></i>
+                                </label>
+                            </div>
+                            <div class="row">
+                                <button class="btn btn-info" id="otpDecryptButton" disabled>Decripteaza!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>let $ = require('jquery');</script>
+    <script>require('popper.js');</script>
+    <script>require('bootstrap');</script>
+    <script>require('./index.js');</script>
+</body>
+
+</html>
